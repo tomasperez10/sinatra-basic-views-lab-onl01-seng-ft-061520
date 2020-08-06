@@ -12,9 +12,9 @@ describe 'App' do
     end
 
 
-    it "renders index.erb" do
-      expect(last_response.body).to eq(File.read("views/index.erb"))
-    end
+  #  it "renders index.erb" do
+  #    expect(last_response.body).to eq(File.read("views/index.erb"))
+  #  end
 
 
     it "displays the name of the bowling alley in an h1 tag" do
